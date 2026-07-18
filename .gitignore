@@ -1,0 +1,10 @@
+output/*
+!output/.gitkeep
+logs/*
+!logs/.gitkeep
+config.json
+known_devices.json
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
