@@ -44,6 +44,6 @@ def export_result(name: str, data: Any) -> tuple[str, str]:
     """Writes both JSON and TXT. Returns (json_path, txt_path) as strings."""
     plain = _to_plain(data)
     json_path = utils.save_json(name, plain)
-    text_body = f"netrecon export: {name}\n{'=' * 40}\n" + _to_text(data)
+    text_body = f"Mobi Recon export: {name}\n{'=' * 40}\n" + _to_text(data)
     txt_path = utils.save_text(name, text_body)
     return str(json_path), str(txt_path)

@@ -1,4 +1,4 @@
-# netrecon
+# Mobi Recon
 
 A network + Bluetooth **reconnaissance** TUI for Termux on Android. Discovery
 and enumeration only — no attacks, no exploits, no deauth, no cracking, no
@@ -15,10 +15,10 @@ why an item is disabled.
 
 ```bash
 pkg install git -y
-git clone <this-repo-url> netrecon
-cd netrecon
+git clone https://github.com/whoevenisxeno/mobi-recon.git
+cd mobi-recon
 bash setup.sh
-netrecon
+mobirecon
 ```
 
 `setup.sh` is idempotent — re-run it any time (e.g. after a Termux update) and
@@ -52,13 +52,13 @@ it will only do what's still needed.
 
 - **Android throttles WiFi scans** to roughly once per 30 seconds, and returns
   an **empty list** if Location services are off — this is Android policy,
-  not a netrecon bug. The tool shows a cooldown timer and an explicit message
-  instead of a silent empty table.
-- **Bluetooth has no official Termux:API scan command.** netrecon looks for a
-  backend in this order: BlueZ (`bluetoothctl`/`hcitool`, usually needs root)
-  → the unofficial Termux fork's `termux-bluetooth-scaninfo` → otherwise it
-  reports plainly that no backend is available. It will never fabricate or
-  simulate a scan result.
+  not a Mobi Recon bug. The tool shows a cooldown timer and an explicit
+  message instead of a silent empty table.
+- **Bluetooth has no official Termux:API scan command.** Mobi Recon looks for
+  a backend in this order: BlueZ (`bluetoothctl`/`hcitool`, usually needs
+  root) → the unofficial Termux fork's `termux-bluetooth-scaninfo` →
+  otherwise it reports plainly that no backend is available. It will never
+  fabricate or simulate a scan result.
 - **The Termux:API *app* is a separate APK from the `termux-api` package.**
   The CLI shims (`termux-wifi-scaninfo`, etc.) install fine even when the app
   itself is missing — calling them then just hangs. `setup.sh` actively tests
@@ -75,12 +75,12 @@ it will only do what's still needed.
 
 ## Configuration
 
-`config.json` is created on first run (see `netrecon/config.py` for defaults).
-Editable in-app via **Settings → View / edit config**, or by hand:
+`config.json` is created on first run (see `mobirecon/config.py` for
+defaults). Editable in-app via **Settings → View / edit config**, or by hand:
 
 ```json
 {
-  "banner_text": "NETRECON",
+  "banner_text": "MOBI RECON",
   "banner_font": "slant",
   "color_theme": "cyan",
   "default_port_range": "1-1000",
@@ -93,7 +93,7 @@ Editable in-app via **Settings → View / edit config**, or by hand:
 ## Output
 
 - Scan results export to `./output/<name>_<timestamp>.{json,txt}`.
-- All activity is logged to `./logs/netrecon_<date>.log`.
+- All activity is logged to `./logs/mobirecon_<date>.log`.
 - Known devices persist in `known_devices.json` in the repo root.
 
 ## Screenshots
@@ -104,7 +104,7 @@ _placeholder — add screenshots of the main menu, host discovery, and capabilit
 
 ```
 main.py                 entrypoint / menu wiring
-netrecon/
+mobirecon/
   capabilities.py        runtime capability probe (the backbone)
   utils.py                subprocess wrapper (timeouts, logging) — all external
                            commands go through this

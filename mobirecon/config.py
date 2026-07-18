@@ -8,7 +8,7 @@ from pathlib import Path
 CONFIG_PATH = Path(__file__).resolve().parent.parent / "config.json"
 
 DEFAULTS = {
-    "banner_text": "NETRECON",
+    "banner_text": "MOBI RECON",
     "banner_font": "slant",
     "color_theme": "cyan",
     "default_port_range": "1-1000",

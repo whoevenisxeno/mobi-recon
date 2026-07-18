@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""netrecon entrypoint. Numbered-menu TUI for network + Bluetooth recon on Termux."""
+"""Mobi Recon entrypoint. Numbered-menu TUI for network + Bluetooth recon on Termux."""
 from __future__ import annotations
 
 import sys
 import threading
 import time
 
-from netrecon import capabilities, config, ui
-from netrecon.modules import (
+from mobirecon import capabilities, config, ui
+from mobirecon.modules import (
     arp,
     bluetooth,
     device,
@@ -422,7 +422,7 @@ def main() -> int:
 
     interrupted_once = False
     while True:
-        explicit_exit = ui.show_menu("netrecon — main menu", top_items, allow_back=False)
+        explicit_exit = ui.show_menu("Mobi Recon — main menu", top_items, allow_back=False)
         if explicit_exit:
             break
         if interrupted_once:

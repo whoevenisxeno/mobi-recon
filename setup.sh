@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# netrecon installer — idempotent, beginner-proof, safe to re-run.
+# Mobi Recon installer — idempotent, beginner-proof, safe to re-run.
 set -u
 
 GREEN='\033[0;32m'; YELLOW='\033[1;33m'; RED='\033[0;31m'; CYAN='\033[0;36m'; NC='\033[0m'
@@ -14,7 +14,7 @@ cd "$SCRIPT_DIR" || { err "Could not cd into $SCRIPT_DIR"; exit 1; }
 step "Checking environment"
 if [ -z "${PREFIX:-}" ] || [[ "$PREFIX" != *com.termux* ]]; then
     err "This does not look like a Termux environment (\$PREFIX=${PREFIX:-unset})."
-    err "netrecon is built for Termux on Android. Aborting."
+    err "Mobi Recon is built for Termux on Android. Aborting."
     exit 1
 fi
 ok "Running inside Termux ($PREFIX)"
@@ -26,10 +26,10 @@ warn "If you installed Termux from the Play Store, it is outdated and broken."
 warn "Use the F-Droid build or the GitHub release instead: https://github.com/termux/termux-app"
 
 step "Updating package lists"
-if pkg update -y >/tmp/netrecon_pkg_update.log 2>&1; then
+if pkg update -y >/tmp/mobirecon_pkg_update.log 2>&1; then
     ok "Package lists updated"
 else
-    warn "pkg update reported issues — continuing anyway (see /tmp/netrecon_pkg_update.log)"
+    warn "pkg update reported issues — continuing anyway (see /tmp/mobirecon_pkg_update.log)"
 fi
 
 step "Installing required packages"
@@ -41,23 +41,23 @@ for pkg_name in $PACKAGES; do
         continue
     fi
     echo "Installing $pkg_name..."
-    if pkg install -y "$pkg_name" >/tmp/netrecon_pkg_install.log 2>&1; then
+    if pkg install -y "$pkg_name" >/tmp/mobirecon_pkg_install.log 2>&1; then
         ok "$pkg_name installed"
     else
         warn "$pkg_name failed to install — the feature(s) it provides will be disabled."
-        warn "  (see /tmp/netrecon_pkg_install.log for details)"
+        warn "  (see /tmp/mobirecon_pkg_install.log for details)"
         FAILED_PACKAGES="$FAILED_PACKAGES $pkg_name"
     fi
 done
 
 if [ -n "$FAILED_PACKAGES" ]; then
     warn "Packages that failed to install:$FAILED_PACKAGES"
-    warn "This is not fatal — netrecon degrades gracefully when a binary is missing."
+    warn "This is not fatal — Mobi Recon degrades gracefully when a binary is missing."
 fi
 
 step "Installing Python dependencies"
 if [ -f requirements.txt ]; then
-    if pip install -r requirements.txt >/tmp/netrecon_pip.log 2>&1; then
+    if pip install -r requirements.txt >/tmp/mobirecon_pip.log 2>&1; then
         ok "Python dependencies installed"
     else
         warn "First pip install attempt failed — retrying with visible output..."
@@ -91,7 +91,7 @@ TERMUX_API_OK=0
 if ! command -v termux-wifi-connectioninfo >/dev/null 2>&1; then
     warn "termux-wifi-connectioninfo not found — termux-api package did not install correctly"
 else
-    API_TEST_OUTPUT=$(timeout 6 termux-wifi-connectioninfo 2>/tmp/netrecon_api_test.log)
+    API_TEST_OUTPUT=$(timeout 6 termux-wifi-connectioninfo 2>/tmp/mobirecon_api_test.log)
     API_TEST_STATUS=$?
     if [ "$API_TEST_STATUS" -eq 124 ]; then
         err "Termux:API app did not respond (timed out after 6s)."
@@ -108,7 +108,7 @@ else
         ok "Termux:API app responded"
         TERMUX_API_OK=1
     else
-        warn "termux-wifi-connectioninfo produced no output (see /tmp/netrecon_api_test.log)"
+        warn "termux-wifi-connectioninfo produced no output (see /tmp/mobirecon_api_test.log)"
         warn "WiFi/Bluetooth/device-info features may not work until the Termux:API app is installed"
     fi
 fi
@@ -121,13 +121,13 @@ if command -v su >/dev/null 2>&1; then
     echo "  To enable OS fingerprinting and BlueZ-based Bluetooth scanning, install BlueZ:"
     echo "    pkg install bluez"
 else
-    warn "No root detected. This is fine — netrecon works fully on stock non-rooted Termux."
+    warn "No root detected. This is fine — Mobi Recon works fully on stock non-rooted Termux."
     warn "Bluetooth discovery and OS fingerprinting will stay disabled (need root); everything"
     warn "else (network scanning, WiFi, ARP, device info) still works."
 fi
 
 step "Installing launcher"
-LAUNCHER="$PREFIX/bin/netrecon"
+LAUNCHER="$PREFIX/bin/mobirecon"
 cat > "$LAUNCHER" <<EOF
 #!/data/data/com.termux/files/usr/bin/bash
 exec python "$SCRIPT_DIR/main.py" "\$@"
@@ -141,7 +141,7 @@ ok "Ready: $SCRIPT_DIR/output and $SCRIPT_DIR/logs"
 
 echo
 echo -e "${CYAN}================= Setup complete =================${NC}"
-echo -e "Launch netrecon with:  ${GREEN}netrecon${NC}"
+echo -e "Launch Mobi Recon with:  ${GREEN}mobirecon${NC}"
 echo -e "  (or: python $SCRIPT_DIR/main.py)"
 echo
 if [ "$TERMUX_API_OK" -eq 0 ]; then

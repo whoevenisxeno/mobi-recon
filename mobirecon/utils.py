@@ -24,9 +24,9 @@ def get_logger() -> logging.Logger:
     global _logger
     if _logger is not None:
         return _logger
-    logger = logging.getLogger("netrecon")
+    logger = logging.getLogger("mobirecon")
     logger.setLevel(logging.DEBUG)
-    log_file = LOG_DIR / f"netrecon_{datetime.now():%Y%m%d}.log"
+    log_file = LOG_DIR / f"mobirecon_{datetime.now():%Y%m%d}.log"
     fh = logging.FileHandler(log_file)
     fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
     logger.addHandler(fh)

@@ -22,7 +22,7 @@ def theme_color() -> str:
 
 def print_banner() -> None:
     cfg = config.get_config()
-    text = cfg.get("banner_text", "NETRECON")
+    text = cfg.get("banner_text", "MOBI RECON")
     font = cfg.get("banner_font", "slant")
     try:
         art = pyfiglet.figlet_format(text, font=font)
@@ -31,7 +31,7 @@ def print_banner() -> None:
     color = theme_color()
     console.print(f"[{color}]{art}[/{color}]", highlight=False)
     console.print(Panel.fit(
-        "network + bluetooth recon — discovery & enumeration only, no attacks",
+        "network + bluetooth discovery — enumeration only, no attacks",
         style=f"{color}",
     ))
 
