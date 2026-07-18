@@ -1,0 +1,107 @@
+<svg class="rich-terminal" viewBox="0 0 1238 342.79999999999995" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generated with Rich https://www.textualize.io -->
+    <style>
+
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Regular"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Regular.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Regular.woff") format("woff");
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Bold"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Bold.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Bold.woff") format("woff");
+        font-style: bold;
+        font-weight: 700;
+    }
+
+    .terminal-2105959516-matrix {
+        font-family: Fira Code, monospace;
+        font-size: 20px;
+        line-height: 24.4px;
+        font-variant-east-asian: full-width;
+    }
+
+    .terminal-2105959516-title {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: arial;
+    }
+
+    .terminal-2105959516-r1 { fill: #68a0b3;font-weight: bold }
+.terminal-2105959516-r2 { fill: #c5c8c6 }
+.terminal-2105959516-r3 { fill: #d0b344;font-weight: bold }
+.terminal-2105959516-r4 { fill: #98729f;font-weight: bold }
+.terminal-2105959516-r5 { fill: #c5c8c6;font-weight: bold }
+.terminal-2105959516-r6 { fill: #00823d;font-weight: bold }
+    </style>
+
+    <defs>
+    <clipPath id="terminal-2105959516-clip-terminal">
+      <rect x="0" y="0" width="1219.0" height="291.79999999999995" />
+    </clipPath>
+    <clipPath id="terminal-2105959516-line-0">
+    <rect x="0" y="1.5" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-1">
+    <rect x="0" y="25.9" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-2">
+    <rect x="0" y="50.3" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-3">
+    <rect x="0" y="74.7" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-4">
+    <rect x="0" y="99.1" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-5">
+    <rect x="0" y="123.5" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-6">
+    <rect x="0" y="147.9" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-7">
+    <rect x="0" y="172.3" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-8">
+    <rect x="0" y="196.7" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-9">
+    <rect x="0" y="221.1" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2105959516-line-10">
+    <rect x="0" y="245.5" width="1220" height="24.65"/>
+            </clipPath>
+    </defs>
+
+    <rect fill="#292929" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1236" height="340.8" rx="8"/><text class="terminal-2105959516-title" fill="#c5c8c6" text-anchor="middle" x="618" y="27">Mobi&#160;Recon</text>
+            <g transform="translate(26,22)">
+            <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
+            <circle cx="22" cy="0" r="7" fill="#febc2e"/>
+            <circle cx="44" cy="0" r="7" fill="#28c840"/>
+            </g>
+        
+    <g transform="translate(9, 41)" clip-path="url(#terminal-2105959516-clip-terminal)">
+    
+    <g class="terminal-2105959516-matrix">
+    <text class="terminal-2105959516-r1" x="0" y="20" textLength="12.2" clip-path="url(#terminal-2105959516-line-0)">i</text><text class="terminal-2105959516-r2" x="12.2" y="20" textLength="268.4" clip-path="url(#terminal-2105959516-line-0)">&#160;Method&#160;used:&#160;nmap&#160;-sn</text><text class="terminal-2105959516-r2" x="1220" y="20" textLength="12.2" clip-path="url(#terminal-2105959516-line-0)">
+</text><text class="terminal-2105959516-r1" x="0" y="44.4" textLength="1195.6" clip-path="url(#terminal-2105959516-line-1)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Hosts&#160;on&#160;192.168.1.0/24&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="1220" y="44.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-1)">
+</text><text class="terminal-2105959516-r2" x="0" y="68.8" textLength="1195.6" clip-path="url(#terminal-2105959516-line-2)">┏━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓</text><text class="terminal-2105959516-r2" x="1220" y="68.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-2)">
+</text><text class="terminal-2105959516-r2" x="0" y="93.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-3)">┃</text><text class="terminal-2105959516-r1" x="24.4" y="93.2" textLength="146.4" clip-path="url(#terminal-2105959516-line-3)">ip&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="183" y="93.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-3)">┃</text><text class="terminal-2105959516-r1" x="207.4" y="93.2" textLength="207.4" clip-path="url(#terminal-2105959516-line-3)">mac&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="427" y="93.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-3)">┃</text><text class="terminal-2105959516-r1" x="451.4" y="93.2" textLength="280.6" clip-path="url(#terminal-2105959516-line-3)">vendor&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="744.2" y="93.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-3)">┃</text><text class="terminal-2105959516-r1" x="768.6" y="93.2" textLength="170.8" clip-path="url(#terminal-2105959516-line-3)">hostname&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="951.6" y="93.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-3)">┃</text><text class="terminal-2105959516-r1" x="976" y="93.2" textLength="195.2" clip-path="url(#terminal-2105959516-line-3)">response_time_ms</text><text class="terminal-2105959516-r2" x="1183.4" y="93.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-3)">┃</text><text class="terminal-2105959516-r2" x="1220" y="93.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-3)">
+</text><text class="terminal-2105959516-r2" x="0" y="117.6" textLength="1195.6" clip-path="url(#terminal-2105959516-line-4)">┡━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩</text><text class="terminal-2105959516-r2" x="1220" y="117.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-4)">
+</text><text class="terminal-2105959516-r2" x="0" y="142" textLength="12.2" clip-path="url(#terminal-2105959516-line-5)">│</text><text class="terminal-2105959516-r2" x="24.4" y="142" textLength="146.4" clip-path="url(#terminal-2105959516-line-5)">192.168.1.1&#160;</text><text class="terminal-2105959516-r2" x="183" y="142" textLength="12.2" clip-path="url(#terminal-2105959516-line-5)">│</text><text class="terminal-2105959516-r2" x="207.4" y="142" textLength="207.4" clip-path="url(#terminal-2105959516-line-5)">A4:2B:B0:11:22:33</text><text class="terminal-2105959516-r2" x="427" y="142" textLength="12.2" clip-path="url(#terminal-2105959516-line-5)">│</text><text class="terminal-2105959516-r2" x="451.4" y="142" textLength="280.6" clip-path="url(#terminal-2105959516-line-5)">TP-LINK&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="744.2" y="142" textLength="12.2" clip-path="url(#terminal-2105959516-line-5)">│</text><text class="terminal-2105959516-r2" x="768.6" y="142" textLength="170.8" clip-path="url(#terminal-2105959516-line-5)">router.lan&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="951.6" y="142" textLength="12.2" clip-path="url(#terminal-2105959516-line-5)">│</text><text class="terminal-2105959516-r2" x="976" y="142" textLength="195.2" clip-path="url(#terminal-2105959516-line-5)">1.2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="1183.4" y="142" textLength="12.2" clip-path="url(#terminal-2105959516-line-5)">│</text><text class="terminal-2105959516-r2" x="1220" y="142" textLength="12.2" clip-path="url(#terminal-2105959516-line-5)">
+</text><text class="terminal-2105959516-r2" x="0" y="166.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-6)">│</text><text class="terminal-2105959516-r2" x="24.4" y="166.4" textLength="146.4" clip-path="url(#terminal-2105959516-line-6)">192.168.1.23</text><text class="terminal-2105959516-r2" x="183" y="166.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-6)">│</text><text class="terminal-2105959516-r2" x="207.4" y="166.4" textLength="207.4" clip-path="url(#terminal-2105959516-line-6)">0C:1F:C6:AA:BB:CC</text><text class="terminal-2105959516-r2" x="427" y="166.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-6)">│</text><text class="terminal-2105959516-r2" x="451.4" y="166.4" textLength="280.6" clip-path="url(#terminal-2105959516-line-6)">Huawei&#160;Technologies&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="744.2" y="166.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-6)">│</text><text class="terminal-2105959516-r2" x="951.6" y="166.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-6)">│</text><text class="terminal-2105959516-r2" x="976" y="166.4" textLength="195.2" clip-path="url(#terminal-2105959516-line-6)">4.6&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="1183.4" y="166.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-6)">│</text><text class="terminal-2105959516-r2" x="1220" y="166.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-6)">
+</text><text class="terminal-2105959516-r2" x="0" y="190.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-7)">│</text><text class="terminal-2105959516-r2" x="24.4" y="190.8" textLength="146.4" clip-path="url(#terminal-2105959516-line-7)">192.168.1.34</text><text class="terminal-2105959516-r2" x="183" y="190.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-7)">│</text><text class="terminal-2105959516-r2" x="207.4" y="190.8" textLength="207.4" clip-path="url(#terminal-2105959516-line-7)">DC:A6:32:44:55:66</text><text class="terminal-2105959516-r2" x="427" y="190.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-7)">│</text><text class="terminal-2105959516-r2" x="451.4" y="190.8" textLength="280.6" clip-path="url(#terminal-2105959516-line-7)">Raspberry&#160;Pi&#160;Foundation</text><text class="terminal-2105959516-r2" x="744.2" y="190.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-7)">│</text><text class="terminal-2105959516-r2" x="768.6" y="190.8" textLength="170.8" clip-path="url(#terminal-2105959516-line-7)">pihole.lan&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="951.6" y="190.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-7)">│</text><text class="terminal-2105959516-r2" x="976" y="190.8" textLength="195.2" clip-path="url(#terminal-2105959516-line-7)">2.1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="1183.4" y="190.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-7)">│</text><text class="terminal-2105959516-r2" x="1220" y="190.8" textLength="12.2" clip-path="url(#terminal-2105959516-line-7)">
+</text><text class="terminal-2105959516-r2" x="0" y="215.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-8)">│</text><text class="terminal-2105959516-r2" x="24.4" y="215.2" textLength="146.4" clip-path="url(#terminal-2105959516-line-8)">192.168.1.55</text><text class="terminal-2105959516-r2" x="183" y="215.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-8)">│</text><text class="terminal-2105959516-r2" x="207.4" y="215.2" textLength="207.4" clip-path="url(#terminal-2105959516-line-8)">F0:B4:29:77:88:99</text><text class="terminal-2105959516-r2" x="427" y="215.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-8)">│</text><text class="terminal-2105959516-r2" x="451.4" y="215.2" textLength="280.6" clip-path="url(#terminal-2105959516-line-8)">Xiaomi&#160;Communications&#160;&#160;</text><text class="terminal-2105959516-r2" x="744.2" y="215.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-8)">│</text><text class="terminal-2105959516-r2" x="951.6" y="215.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-8)">│</text><text class="terminal-2105959516-r2" x="976" y="215.2" textLength="195.2" clip-path="url(#terminal-2105959516-line-8)">9.8&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="1183.4" y="215.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-8)">│</text><text class="terminal-2105959516-r2" x="1220" y="215.2" textLength="12.2" clip-path="url(#terminal-2105959516-line-8)">
+</text><text class="terminal-2105959516-r2" x="0" y="239.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-9)">│</text><text class="terminal-2105959516-r2" x="24.4" y="239.6" textLength="146.4" clip-path="url(#terminal-2105959516-line-9)">192.168.1.71</text><text class="terminal-2105959516-r2" x="183" y="239.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-9)">│</text><text class="terminal-2105959516-r2" x="207.4" y="239.6" textLength="207.4" clip-path="url(#terminal-2105959516-line-9)">9C:99:A0:CC:DD:EE</text><text class="terminal-2105959516-r2" x="427" y="239.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-9)">│</text><text class="terminal-2105959516-r2" x="451.4" y="239.6" textLength="280.6" clip-path="url(#terminal-2105959516-line-9)">Xiaomi&#160;Communications&#160;&#160;</text><text class="terminal-2105959516-r2" x="744.2" y="239.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-9)">│</text><text class="terminal-2105959516-r2" x="768.6" y="239.6" textLength="170.8" clip-path="url(#terminal-2105959516-line-9)">android-71.lan</text><text class="terminal-2105959516-r2" x="951.6" y="239.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-9)">│</text><text class="terminal-2105959516-r2" x="976" y="239.6" textLength="195.2" clip-path="url(#terminal-2105959516-line-9)">3.3&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text class="terminal-2105959516-r2" x="1183.4" y="239.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-9)">│</text><text class="terminal-2105959516-r2" x="1220" y="239.6" textLength="12.2" clip-path="url(#terminal-2105959516-line-9)">
+</text><text class="terminal-2105959516-r2" x="0" y="264" textLength="1195.6" clip-path="url(#terminal-2105959516-line-10)">└──────────────┴───────────────────┴─────────────────────────┴────────────────┴──────────────────┘</text><text class="terminal-2105959516-r2" x="1220" y="264" textLength="12.2" clip-path="url(#terminal-2105959516-line-10)">
+</text><text class="terminal-2105959516-r3" x="0" y="288.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-11)">!</text><text class="terminal-2105959516-r1" x="24.4" y="288.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-11)">2</text><text class="terminal-2105959516-r2" x="36.6" y="288.4" textLength="109.8" clip-path="url(#terminal-2105959516-line-11)">&#160;unknown&#160;</text><text class="terminal-2105959516-r4" x="146.4" y="288.4" textLength="73.2" clip-path="url(#terminal-2105959516-line-11)">device</text><text class="terminal-2105959516-r5" x="219.6" y="288.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-11)">(</text><text class="terminal-2105959516-r2" x="231.8" y="288.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-11)">s</text><text class="terminal-2105959516-r5" x="244" y="288.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-11)">)</text><text class="terminal-2105959516-r2" x="256.2" y="288.4" textLength="24.4" clip-path="url(#terminal-2105959516-line-11)">:&#160;</text><text class="terminal-2105959516-r6" x="280.6" y="288.4" textLength="207.4" clip-path="url(#terminal-2105959516-line-11)">F0:B4:29:77:88:99</text><text class="terminal-2105959516-r2" x="488" y="288.4" textLength="24.4" clip-path="url(#terminal-2105959516-line-11)">,&#160;</text><text class="terminal-2105959516-r6" x="512.4" y="288.4" textLength="207.4" clip-path="url(#terminal-2105959516-line-11)">9C:99:A0:CC:DD:EE</text><text class="terminal-2105959516-r2" x="1220" y="288.4" textLength="12.2" clip-path="url(#terminal-2105959516-line-11)">
+</text>
+    </g>
+    </g>
+</svg>

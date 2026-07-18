@@ -98,7 +98,23 @@ defaults). Editable in-app via **Settings → View / edit config**, or by hand:
 
 ## Screenshots
 
-_placeholder — add screenshots of the main menu, host discovery, and capability report here._
+Rendered from the real UI code with representative example data (not a live
+scan) so nobody's actual network gets published in this README.
+
+**Startup banner + main menu**
+![Banner and main menu](screenshots/banner-main-menu.svg)
+
+**Host discovery**
+![Host discovery table](screenshots/host-discovery.svg)
+
+**Port scan**
+![Port scan results](screenshots/port-scan.svg)
+
+**WiFi scan**
+![WiFi access point scan](screenshots/wifi-scan.svg)
+
+**Capability report**
+![Capability probe report](screenshots/capability-report.svg)
 
 ## Project layout
 
