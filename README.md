@@ -1,3 +1,6 @@
+## FULLY VIBECODED AND COMPLETELY ASS.
+
+
 # Mobi Recon
 
 A network + Bluetooth **reconnaissance** TUI for Termux on Android. Discovery
